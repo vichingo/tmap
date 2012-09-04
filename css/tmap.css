@@ -1,0 +1,1792 @@
+/*[fmt]AA90-1A0A-3*/
+/*+clearfix {*/
+.laatse_bestelling_lijn:after, div#zoekkolom:after, div#zoekblok:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.laatse_bestelling_lijn, div#zoekkolom, div#zoekblok
+{
+	display: inline-block;
+}
+.laatse_bestelling_lijn, div#zoekkolom, div#zoekblok
+{
+/*\*/
+	display: block;
+/**/
+	-height: 1px;
+}
+/*+}*/
+body, html
+{
+	background: transparent;
+	color: #000000;
+	font: 10px/1.3em Georgia !important;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.clear
+{
+	clear: both;
+}
+.hidden
+{
+	display: none;
+}
+#gerechten_lijst tr, #gerechten_lijst td
+{
+	margin: 0;
+	padding: 4px;
+}
+h1
+{
+	height: 20px !important;
+	font-size: 2em !important;
+}
+h2
+{
+	font-size: 1.5em !important;
+	line-height: 1.6em !important;
+	color: #000000 !important;
+}
+h3
+{
+	font-size: 1.1em !important;
+	line-height: 1.2em !important;
+	color: #000000 !important;
+	margin: 0px 0px 10px !important;
+}
+h4
+{
+	font-size: 1.1em;
+	line-height: 1.2em;
+	color: #000000;
+	margin: 0px 0px 10px;
+}
+/*design*/
+.blauw
+{
+	background-color: #15A8FF;
+}
+#gerechten_lijst .kantje_rechts
+{
+	border-right: 2px solid #15A8FF;
+}
+.odd
+{
+	background: #F7D3EF;
+}
+.even
+{
+	background: #E994D6;
+}
+.lijn_links
+{
+	border-left: 1px solid #81D0FF;
+}
+.lijn_rechts
+{
+	border-right: 1px solid #81D0FF;
+}
+div#wrapper
+{
+	position: relative;
+	height: auto !important;
+	height: 100%;
+	/*[disabled]min-height:100%;*/
+}
+/*header*/
+#header
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+/*navbar*/
+div#navbar
+{
+	height: 40px;
+	float: left;
+}
+#logobar
+{
+	height: 130px;
+	margin: 0px;
+	background: transparent url(../images/design/logo_bg.png);
+	padding: 0px;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+#logobar img
+{
+	margin: 0px 0px 0px -400px;
+	padding: 0px 0px 0px 50%;
+	width: 800px;
+	height: 130px;
+}
+div#navbar ul
+{
+	list-style: none;
+	display: block;
+	float: left;
+	position: relative;
+	top: 11px;
+	left: 5px;
+	margin: 0px;
+}
+div#navbar ul li
+{
+	margin: 0px 0px 10px;
+	display: inline;
+	font-size: 1.8em;
+	color: #FFFFFF;
+}
+div#navbar ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+div#navbar ul li a:hover
+{
+	text-decoration: underline;
+	color: #000000;
+}
+/*bouncerbar*/
+div#bouncerbar
+{
+	height: 40px;
+	background: #94BD42;
+}
+div#bouncerbar ul
+{
+	list-style: none;
+	display: block;
+	float: right;
+	position: relative;
+	top: 11px;
+	right: 5px;
+	margin: 0px;
+}
+div#bouncerbar ul li
+{
+	margin: 0px 0px 10px;
+	display: inline;
+	font-size: 1.8em;
+	color: #FFFFFF;
+}
+div#bouncerbar ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+div#bouncerbar ul li a:hover
+{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+.alertIcon
+{
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	position: relative;
+	top: 2px;
+}
+/*content*/
+#contentwrapper
+{
+	float: left;
+	width: 100%;
+	margin: 0px 0px 55px;
+	overflow: hidden;
+}
+.contentkolom
+{
+	background: #FDFBFB;
+	margin: 0px 365px 0px 5px;
+	padding: 5px;
+}
+.full
+{
+	margin-right: 0px;
+}
+.maincontent
+{
+	margin: 0px 526px 0px 0px;
+	padding: 10px 5px 5px;
+}
+.stretched
+{
+	margin: 0px 5px 5px;
+	padding: 10px 5px 5px;
+}
+.intro
+{
+	margin: 0px;
+	padding: 0px;
+}
+.intro p
+{
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin: 4px 0px 0px;
+	padding: 0px;
+}
+div#header
+{
+	background: transparent;
+	height: 40px;
+}
+h2.menu_header
+{
+	font-size: 2em;
+	line-height: 1em;
+}
+div#gerechten
+{
+	background: transparent;
+	margin: 0px 5px 5px;
+}
+div#gerechten_lijst table
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.gerecht_rij
+{
+	margin: 0px;
+	padding: 0px;
+}
+#gerechten_lijst img
+{
+	width: 100px;
+	float: left;
+}
+.gerecht_data
+{
+	float: left;
+}
+.gerecht_data p
+{
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	font-size: 1.1em;
+}
+.gerecht_data .gerecht_code
+{
+	font-size: 1.2em;
+}
+.gerecht_data .gerecht_naam
+{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.gerecht_data .gerecht_bestanddelen
+{
+	font-style: italic;
+}
+.gerecht_data .gerecht_basisprijs
+{
+	text-align: left;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1.1em;
+}
+.lijn_data
+{
+	background: #15A8FF;
+	float: left;
+	margin: 0px 0px 0px -380px;
+	padding: 5px 0px 5px 5px;
+	height: auto;
+	position: relative;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/*[disabled]opacity:.8;*/
+	z-index: 20;
+}
+.verzamelKnop
+{
+	float: left;
+	margin: 5px 20px;
+	padding: 0px 5px;
+	line-height: 2em;
+}
+.optionbar label
+{
+	float: left;
+	clear: both;
+	margin: 10px 0px 0px;
+}
+.optionbar input, .optionbar select
+{
+	float: left;
+	clear: both;
+	margin: 0px;
+}
+.product_data
+{
+	margin: 5px 5px 0px 0px;
+	padding: 5px;
+	background: #FFFFFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.product_text
+{
+	font-size: 1.1em;
+}
+.ui-datepicker-trigger
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 3px;
+	left: -19px;
+}
+input#reservatie_datum_tijd
+{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	height: 18px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 3px;
+	border: 1px solid #F6AD37;
+	width: 120px;
+}
+.product_text .gerecht_naam, .product_text .gerecht_prijs
+{
+	font-weight: bold;
+}
+/*gastenboek*/
+.gb_lijstkolom
+{
+	margin: 0px 320px 0px 0px;
+	padding: 5px 10px 0px 5px;
+	position: relative;
+	bottom: 0px;
+	/*[disabled]top:0px;*/
+}
+.gb_lijstkolom .gb_bericht
+{
+	margin: 0px 0px 10px;
+	padding: 0px;
+	float: left;
+}
+.gb_bericht .gb_bericht-datum
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+}
+.gb_bericht .gb_bericht-datum p
+{
+	color: #FFFFFF;
+}
+.gb_bericht-datum .gb_bericht-dag, .gb_bericht-datum .gb_bericht-maand, .gb_bericht-datum .gb_bericht-jaar, .gb_bericht-datum .gb_bericht-tijd
+{
+	margin: 0px;
+	padding: 0px;
+	width: 50px;
+	background: #94BD42;
+	height: 30px;
+}
+.gb_bericht-datum .gb_bericht-dag
+{
+	margin: 0px;
+	padding: 0px;
+	-moz-border-radius: 5px 0px 0px;
+	-webkit-border-radius: 5px 0px 0px;
+}
+.gb_bericht-datum .gb_bericht-dag p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 2em;
+	line-height: 1.3em;
+}
+.gb_bericht-datum .gb_bericht-maand p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 2.5em;
+	line-height: 1.1em;
+}
+.gb_bericht-datum .gb_bericht-jaar p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 3em;
+	line-height: 0.9em;
+}
+.gb_bericht-datum .gb_bericht-tijd
+{
+	margin: 0px;
+	padding: 0px;
+	-moz-border-radius: 0px 0px 0px 5px;
+	-webkit-border-radius: 0px 0px 0px 5px;
+}
+.gb_bericht-datum .gb_bericht-tijd p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+.gb_bericht .gb_bericht-content
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 500px;
+}
+.gb_bericht .gb_bericht-nummer
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 40px;
+	background: #94BD42;
+	height: 120px;
+	-moz-border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	text-align: center;
+}
+.gb_bericht .gb_bericht-nummer p
+{
+	font-size: 1.6em;
+	margin: 0px;
+	padding: 5px 0px 0px;
+	color: #FFFFFF;
+}
+.gb_bericht-content .gb_bericht-naam
+{
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	background: #81D0FF;
+}
+.gb_bericht-content .gb_bericht-naam p
+{
+	margin: 0px;
+	padding: 4px 0px 3px 5px;
+	color: #000000;
+	font-size: 1.2em;
+}
+.gb_bericht-content .gb_bericht-email
+{
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	/*[empty]float:;*/
+	background: #A8DFFF;
+}
+.gb_bericht-content .gb_bericht-email p
+{
+	margin: 0px;
+	padding: 4px 0px 3px 5px;
+	color: #000000;
+	font-size: 1.2em;
+}
+.gb_bericht-content .gb_bericht-krabbel
+{
+	margin: 0px;
+	padding: 0px;
+	min-height: 80px;
+	background: #D5EFFF;
+}
+.gb_bericht-content .gb_bericht-krabbel p
+{
+	margin: 0px;
+	padding: 4px 0px 3px 5px;
+	color: #000000;
+	font-size: 1.2em;
+}
+.gb_berichtkolom
+{
+	float: left;
+	width: 305px;
+	margin: 5px 5px 0px -320px;
+	padding: 5px;
+	background: #81D0FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.gb_berichtkolom h1
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.8em !important;
+	line-height: 0.9em;
+}
+.gb_berichtkolom>p
+{
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+.gb_formulier label
+{
+	display: block;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.1em;
+	color: #B71E96;
+	margin: 3px 0px 1px;
+}
+.gb_formulier input
+{
+	font-size: 1.3em;
+	color: #B71E96;
+	width: 300px;
+	margin: 0px;
+}
+.gb_formulier input[readonly]
+{
+	color: #B71E96;
+	background: #81D0FF;
+	border: 2px solid #81D0FF;
+}
+.gb_formulier textarea
+{
+	display: block;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #B71E96;
+	width: 300px;
+	margin: 0px;
+}
+.karakters_toegestaan, .karakters_tegoed
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+.karakters_toegestaan span, .karakters_tegoed span
+{
+	font-weight: bold;
+}
+/*bestelling*/
+#bestelling_overzicht
+{
+	margin: 5px;
+	padding: 5px;
+	background: #81D0FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#bestelling_overzicht h1
+{
+	margin: 0px;
+	padding: 5px;
+	background: #FFFFFF;
+	font-size: 1.8em !important;
+	line-height: 1.1em !important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#bestelling_overzicht ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+#bestelling_overzicht ul li
+{
+	margin: 5px 0px;
+	padding: 5px;
+	background: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.ld_links, .ld_rechts
+{
+	background: #50C448;
+	position: relative;
+	margin: 0px 0px 5px;
+	padding: 5px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 1.3em;
+	color: #FFFFFF;
+}
+.ld_links
+{
+	font-weight: bold;
+}
+.ld_rechts
+{
+	color: #000000;
+	margin: 0px;
+}
+/*faqkolom*/
+div#faqkolom
+{
+	margin: 0px;
+	padding: 0px 5px 5px;
+}
+#alle_vragen h1
+{
+	margin: 0px;
+	padding: 5px 0px 0px 5px;
+	font-size: 2em !important;
+}
+#alle_vragen li, #gevonden_vragen li, #controle_paneel
+{
+	margin: 5px;
+	padding: 5px;
+	background: #CCECFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden;
+}
+li .relevantie
+{
+	margin: 0px;
+	padding: 5px;
+	width: 40px;
+	float: left;
+	clear: both;
+	position: relative;
+	top: 0px;
+	background: #81D0FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+}
+.alle_resultaten_tonen
+{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.aantal_resultaten, .gezocht_naar
+{
+	margin: 0px 30px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+.aantal_resultaten p, .gezocht_naar p
+{
+	margin: 0px;
+	padding: 2px 0px 2px 2px;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+.aantal_resultaten span, .gezocht_naar span
+{
+	font-weight: bold;
+}
+.relevantie p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+li .vraag_nr
+{
+	margin: 0px;
+	padding: 5px;
+	width: 40px;
+	float: left;
+	clear: both;
+	position: relative;
+	top: 0px;
+	background: #E994D6;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-align: center;
+}
+.vraag_nr p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+li .vraag
+{
+	margin: 0px 0px 0px 55px;
+	padding: 5px;
+	position: relative;
+	top: 0px;
+	background: #50C448;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+li .vraag p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2em;
+}
+li .antwoord
+{
+	margin: 5px 0px 0px;
+	padding: 5px;
+	background: #B1E5AE;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.antwoord p
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+/*klantdata kolom
+details*/
+#kd_details_kolom
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+}
+.kd_data
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.kd_data .kd_data_formulier
+{
+	margin: 5px auto;
+	padding: 0px;
+	width: 940px;
+	position: relative;
+	height: 200px;
+}
+.kd_data .kd_data_formulier h3
+{
+	padding: 5px;
+	margin: 0px;
+	font-size: 1.5em !important;
+	line-height: 1.5em !important;
+	background: #81D0FF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.kd_data .kd_data_formulier .kd_kolom
+{
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	position: relative;
+	top: -5px;
+	/*[disabled]height:180px;*/
+	width: 170px;
+	height: 180px;
+	background: #94BD42;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.kd_data .kd_data_formulier p
+{
+	margin: 0px;
+	padding: 5px;
+	font-size: 1.3em;
+	background: #81D0FF url(../images/fugue/icons/navigation.png) no-repeat 150px 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.kd_data .kd_data_formulier p.info_box
+{
+	margin: 24px 0px 0px;
+	padding: 20px 5px 5px;
+	font-size: 1.2em;
+	background: #FFFF00 url(../images/fugue/icons/information-balloon.png) no-repeat 2px 2px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.kd_data .kd_data_formulier .kd_kolom .go_down
+{
+	background: #81D0FF url(../images/fugue/icons/navigation-270.png) no-repeat 150px 4px;
+}
+.kd_data .kd_data_formulier .sluit-links-5
+{
+	margin-left: 0px;
+}
+.kd_data .kd_data_formulier .sluit-rechts-5
+{
+	margin-right: 0px;
+}
+.kd_data .kd_data_formulier .kd_kolom .kd_row label
+{
+	margin: 3px 0px 2px 3px !important;
+	padding: 0px;
+	font-size: 1.1em;
+	color: #FFFFFF;
+}
+.kd_data .kd_data_formulier .kd_kolom .kd_row input
+{
+	margin: 0px !important;
+	padding: 0px;
+	width: 155px;
+}
+.kd_data .kd_data_formulier .kd_kolom .kd_row input[readonly]
+{
+	margin: 0px !important;
+	padding: 0px;
+	color: #000000;
+	background: #94BD42;
+	border: 2px solid #94BD42;
+}
+.kd_data .kd_data_formulier .kd_kolom .kd_row input[type="checkbox"]
+{
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 16px;
+}
+.kd_data .kd_data_formulier .kd_kolom .kd_row select
+{
+	margin: 0px !important;
+	padding: 0px;
+	width: 135px;
+}
+.kd_data .kd_data_formulier .kd_kolom .kd_row select[disabled]
+{
+	margin: 0px !important;
+	padding: 0px;
+	color: #000000;
+	background: #94BD42;
+	border: 2px solid #94BD42;
+}
+.kd_data_formulier .kd_kolom .kd_row img
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	cursor: pointer;
+}
+.kd_data .kd_knoppen
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+}
+.kd_knoppen .kd_knoppen_balk
+{
+	margin: 0px auto 5px;
+	padding: 0px;
+	width: 940px;
+	background: #81D0FF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-align: right;
+}
+.kd_knoppen .kd_knoppen_balk button
+{
+	margin: 5px;
+	padding: 1px;
+	position: relative;
+	right: 0px;
+	top: 0px;
+}
+.kd_data .kd_errors
+{
+	margin: 0px auto;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	height: 100px;
+}
+.kd_data .kd_errors .kd_wijzig_errors
+{
+	margin: 0px auto 5px;
+	padding: 0px;
+	width: 940px;
+	background: #94BD42;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+/*bestellingen*/
+.klantdatakolom
+{
+	padding: 0px;
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+#kd_bestelling
+{
+	margin: 5px auto;
+	padding: 5px;
+	width: 930px;
+	background: #81D0FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#kd_bestelling .kd_bestellingen_header
+{
+	margin: 0px 0px 5px !important;
+	padding: 3px 3px 3px 5px !important;
+	color: #FFFFFF !important;
+	background: #94BD42;
+	font-size: 1.4em !important;
+	line-height: 1.5em !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#kd_bestelling #kd_bestel_lijst table
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #FFFFFF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#kd_bestelling #kd_bestel_lijst table tfoot
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #FFA500;
+	height: 15px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#kd_bestelling #kd_bestel_lijst thead .icon
+{
+	margin: 4px 0px 4px 5px;
+	padding: 0px;
+	float: left;
+}
+#kd_bestelling #kd_bestel_lijst thead p
+{
+	margin: 6px;
+	padding: 0px;
+	float: left;
+	font-size: 1.2em;
+}
+#kd_bestelling #kd_bestel_lijst tbody tr
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+#kd_bestelling #kd_bestel_lijst tbody td
+{
+	margin: 0px;
+	padding: 0px 5px 0px 10px;
+}
+#kd_bestelling #kd_bestel_lijst tbody td p
+{
+	margin: 0px;
+	padding: 3px 0px;
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+/*order*/
+.kd_row label
+{
+	margin: 0px;
+	display: block;
+	padding: 0px;
+}
+.kd_row input
+{
+	margin: 0px;
+	padding: 0px;
+}
+div#orderkolom
+{
+	float: left;
+	width: 316px;
+	margin: 0px 5px 0px -325px;
+	padding: 2px;
+	background: #81D0FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#orderkolom .bestellen_image
+{
+	float: left;
+	margin: 2px;
+}
+#mandje_header
+{
+	margin: 5px;
+	padding: 3px;
+	height: 40px;
+	background: #94BD42;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#orderkolom h3
+{
+	margin: 4px 0px 0px !important;
+	padding: 0px 0px 0px 5px !important;
+	font-size: 2.5em !important;
+	position: relative;
+	top: 0px;
+	left: 5px;
+	float: left;
+	line-height: 1.3em !important;
+	height: 32px;
+	width: 250px;
+	color: #000000 !important;
+	/*[disabled]background:#FFFFFF;*/
+	border: 1px solid #FFFFFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+#leeg_mandje
+{
+	margin: 5px;
+	padding: 3px 5px;
+	float: left;
+	clear: both;
+	font-size: 1.2em;
+	line-height: 1.7em;
+	height: 20px;
+	background: #FF0000;
+	color: #FFFFFF;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+div#mandjelijnen
+{
+	margin: 5px;
+	padding: 0px;
+}
+div.mandjelijn
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+div.mandjelijn_aantal, div.mandjelijn_naam
+{
+	float: left;
+	margin: 2px 5px 0px;
+	padding: 0px;
+	line-height: 1.2em;
+	font-size: 1.1em;
+}
+div.mandjeUpdateBlock
+{
+	float: right;
+	width: 64px;
+}
+div.mandjelijnPlusMin
+{
+	float: left;
+	margin: 2px 3px 0px 5px;
+	padding: 0px;
+	line-height: 1.2em;
+	font-size: 1.1em;
+}
+div.puttumiera
+{
+	float: left;
+	margin: 1px 5px 0px 0px;
+	padding: 0px;
+	line-height: 1.2em;
+	font-size: 1.1em;
+}
+#reservatie_keuze_box, #mandje_totalen, #leverwijze_keuze
+{
+	float: left;
+	clear: left;
+	margin: 5px 0px 5px 5px;
+	padding: 0px;
+}
+#leverwijze_keuze label
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+#reservatie_input label
+{
+	display: block;
+	margin: 0px 0px 0px 3px;
+	padding: 0px;
+}
+#reservatie_input
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: both;
+}
+div.mandjelijn_prijs
+{
+	float: right;
+	margin: 2px 5px 0px;
+	/*[disabled]padding:0px;*/
+	line-height: 1.2em;
+	font-size: 1.1em;
+}
+.bestelKnop
+{
+	float: left;
+	margin: 5px;
+	padding: 0px 5px;
+	line-height: 1.4em;
+}
+#reservatie_knop
+{
+	float: left;
+	margin: 0px 5px 5px 0px;
+	padding: 0px 5px;
+	line-height: 1.4em;
+}
+/*final order list*/
+#bestel_lijst
+{
+	margin: 5px;
+	padding: 0px;
+}
+#bestel_lijst table
+{
+	width: 100%;
+}
+#bestel_lijst tr, #bestel_lijst td
+{
+	border: 0px solid #000000;
+}
+div#bestel_lijst p
+{
+	margin: 5px 0px;
+	padding: 0px;
+	font-size: 1.2em;
+}
+.lege_bestelling p
+{
+	margin: 5px;
+	padding: 0px;
+	font-size: 1.5em;
+}
+#bestel_lijst td
+{
+	border-bottom: 1px solid #8887BF;
+}
+#bestel_handelingen
+{
+	margin: 0px 5px;
+	padding: 0px;
+}
+#levertijd
+{
+	margin: 0px auto;
+	padding: 0px 0px 5px;
+	width: auto;
+	text-align: center;
+}
+#levertijd_verkeerd
+{
+	margin: 0px auto;
+	float: left;
+	padding: 0px 2px 2px;
+	width: auto;
+	text-align: center;
+}
+#levertijd_verkeerd p
+{
+	margin: 0px;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px dashed #FFFF00;
+	background: #FFFF00;
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 3px;
+}
+#levertijd p
+{
+	margin: 0px;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #12B320;
+	background: #94BD42;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.3em;
+	border-radius: 3px;
+}
+#aanmelden
+{
+	margin: 0px auto;
+	padding: 0px 0px 5px;
+	width: auto;
+	text-align: center;
+}
+#aanmelden p
+{
+	margin: 0px;
+	padding: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #12B320;
+	background: #94BD42;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.3em;
+	border-radius: 3px;
+}
+#annuleren
+{
+	margin: 0px 0px 0px 1px;
+	padding: 0px;
+	position: relative;
+	float: left;
+}
+#voltooien
+{
+	margin: 0px 1px 0px 0px;
+	padding: 0px;
+	position: relative;
+	float: right;
+}
+#wijzigen
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: right;
+}
+#bestelling_overzicht #bestel_knoppen
+{
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+}
+#verder
+{
+	margin: 0px;
+	padding: 0px;
+}
+#verder button
+{
+	margin: 0px;
+	padding: 3px;
+	position: relative;
+	float: right;
+}
+#bestel_handelingen tr
+{
+	/*[disabled]margin:0px 5px;*/
+	/*[disabled]padding:0px;*/
+	/*[disabled]height:60px;*/
+	/*[disabled]background:#FFA500;*/
+}
+#bestel_lijst div.bestellijnPlusMin
+{
+	float: left;
+	position: relative;
+	top: 7px;
+	margin: 0px 3px 0px 5px;
+	padding: 0px;
+}
+#bestel_lijst div.puttumiera
+{
+	float: left;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	position: relative;
+	top: 6px;
+}
+/*registreer login kolom*/
+.row_header
+{
+	margin: 0px 0px 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+	border-bottom: 1px dotted #000000;
+	line-height: 1.4em;
+}
+#registreer_loginkolom
+{
+	float: left;
+	width: 516px;
+	margin: 0px 0px 0px -520px;
+	padding: 2px;
+	background: #8887BF;
+}
+#loginkolom
+{
+	margin: 5px;
+	padding: 5px;
+	background: #81D0FF;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#loginkolom h1
+{
+	margin: 5px;
+	padding: 5px 0px 0px;
+}
+#registreerkolom
+{
+	margin: 5px;
+	width: 496px;
+	padding: 5px;
+	background: #81D0FF;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#registreerkolom h1
+{
+	margin: 5px 0px 0px;
+	padding: 0px;
+}
+div.row
+{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.row label
+{
+	display: block;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.1em;
+	color: #B71E96;
+	margin: 0px 0px 0px 3px;
+}
+div.row_left
+{
+	float: left;
+	margin: 0px 0px 5px 5px;
+}
+div.row_right
+{
+	float: left;
+	margin: 0px 0px 0px 5px;
+}
+#reg_errors
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.fouten_lijst
+{
+	margin: 0px;
+	padding: 5px;
+}
+.fouten_lijst li
+{
+	font-weight: bold;
+}
+.fouten_lijst li li
+{
+	list-style: decimal inside none;
+	margin: 0px 0px 0px 22px;
+	padding: 1px;
+	background: #C20101;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+h5.login_error
+{
+	margin: 5px;
+	padding: 5px;
+	background: #FF0000;
+	color: #FFFFFF;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#klant_login, #klant_registreer
+{
+	padding: 2px 6px 3px;
+}
+/*welkom_kolom*/
+#welkomkolom
+{
+	float: left;
+	width: 516px;
+	margin: 0px 5px 0px -525px;
+	padding: 2px;
+	background: #81D0FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#welkomkolom h1
+{
+	margin: 0px;
+	padding: 5px 5px 0px;
+	color: #000000;
+}
+#welkomkolom h3
+{
+	color: #FFFFFF !important;
+	margin: 0px 5px 5px !important;
+	padding: 2px;
+	border-bottom: 1px dashed #FFFFFF;
+}
+#laatse_bestelling
+{
+	margin: 5px;
+	padding: 5px;
+	background: #FFFFFF;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#opsomming
+{
+	margin: 0px;
+	padding: 0px;
+	background: #50C448;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.laatse_bestelling_nummer, .laatse_bestelling_lijnen, .laatse_bestelling_tijd, .laatse_bestelling_leverwijze, .laatse_bestelling_totaal_prijs
+{
+	margin: 0px;
+	padding: 3px;
+}
+#laatse_bestelling p
+{
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	color: #FFFFFF;
+	font-size: 1.1em;
+	font-style: italic;
+}
+#laatse_bestelling p span
+{
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: normal;
+}
+.laatse_bestelling_lijn_header
+{
+	margin: 0px 0px 2px;
+	padding: 0px;
+	height: 20px;
+	position: relative;
+	display: block;
+	border-bottom: 1px dashed #8887BF;
+}
+.laatse_bestelling_lijn_header_aantal
+{
+	margin: 0px;
+	padding: 3px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	width: 40px;
+	height: 14px;
+}
+.laatse_bestelling_lijn_header_naam
+{
+	margin: 0px;
+	padding: 3px;
+	position: relative;
+	top: -20px;
+	right: 0px;
+	left: 46px;
+	width: 196px;
+	height: 14px;
+}
+.laatse_bestelling_lijn_header_opties
+{
+	margin: 0px;
+	padding: 3px;
+	position: relative;
+	top: -40px;
+	right: 0px;
+	left: 250px;
+	width: 187px;
+	height: 14px;
+}
+.laatse_bestelling_lijn_header_prijs
+{
+	margin: 0px;
+	padding: 3px;
+	position: relative;
+	top: -60px;
+	right: 0px;
+	left: 438px;
+	width: 52px;
+	height: 14px;
+}
+/*[clearfix]*/.laatse_bestelling_lijn
+{
+	margin: 0px 0px 2px;
+	padding: 0px 0px 2px;
+	width: 496px;
+	clear: both;
+	float: left;
+	height: 62px;
+	border-bottom: 1px dashed #6ADFE9;
+}
+.laatse_bestelling_lijn_aantal
+{
+	margin: 0px;
+	padding: 3px;
+	background: #6ADFE9;
+	position: relative;
+	float: left;
+	clear: both;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	width: 40px;
+	height: 14px;
+}
+.laatse_bestelling_lijn_naam
+{
+	margin: 0px;
+	padding: 3px;
+	background: #6ADFE9;
+	position: relative;
+	float: left;
+	clear: both;
+	top: -20px;
+	right: 0px;
+	left: 47px;
+	width: 196px;
+	height: 14px;
+}
+.laatse_bestelling_lijn_opties
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: left;
+	clear: both;
+	top: -40px;
+	right: 0px;
+	left: 250px;
+	width: 187px;
+}
+.laatse_bestelling_lijn_opties ul li
+{
+	margin: 0px 0px 1px;
+	padding: 3px 0px 4px 3px;
+	background: #6ADFE9;
+}
+.laatse_bestelling_lijn_prijs
+{
+	margin: 0px;
+	padding: 3px;
+	background: #6ADFE9;
+	position: relative;
+	float: left;
+	clear: both;
+	top: -103px;
+	right: 0px;
+	left: 438px;
+	width: 52px;
+	height: 14px;
+}
+/*zoek_kolom*/
+/*[clearfix]*/div#zoekkolom
+{
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	right: 5px;
+	top: 40px;
+	background: #50C448;
+	/*[disabled]text-align:center;*/
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	padding: 0px;
+	margin: 0px;
+}
+#zoekblok button
+{
+	margin: 0px;
+	padding: 0px 0px 2px;
+	-moz-border-radius: 0px 2px 2px 0px;
+	-webkit-border-radius: 0px 2px 2px 0px;
+	position: relative;
+	left: 180px;
+	top: -20px;
+	border: 0px solid #000000;
+	background: #81D0FF;
+	height: 20px;
+	width: 60px;
+	line-height: 1.5em;
+}
+/*[clearfix]*/div#zoekblok
+{
+	margin: 5px;
+	padding: 0px;
+	height: 20px;
+	width: 240px;
+}
+#zoekblok input
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+	-moz-border-radius: 2px 0px 0px 2px;
+	-webkit-border-radius: 0px 0px 0px 2px;
+	border: 0px solid #81D0FF;
+	width: 180px;
+	height: 20px;
+}
+/*footer*/
+div#footer
+{
+	background: #DDEAF7;
+	height: 30px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	margin: 0px;
+	z-index: 990;
+	text-align: center;
+}
+/*promoties*/
+#promoblok
+{
+	margin: 0px auto;
+	padding: 0px;
+	position: fixed;
+	bottom: 30px;
+	/*[disabled]width:100%;*/
+	z-index: 999;
+	/*[disabled]background:#FFA500;*/
+	/*[disabled]-moz-border-radius:5px 5px 0px 0px;*/
+	/*[disabled]-webkit-border-radius:5px 5px 0px 0px;*/
+}
+#promoties
+{
+	overflow: hidden;
+	position: relative;
+	display: none;
+	width: 100%;
+	bottom: 0px;
+	z-index: 3;
+	background: #DDEAF7;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	/*[disabled]border-top:2px solid #DDEAF7;*/
+	/*[disabled]border-left:2px solid #DDEAF7;*/
+	/*[disabled]border-right:2px solid #DDEAF7;*/
+	margin: 0px;
+	padding: 0px;
+}
+.promo_tab
+{
+	margin: 0px;
+	padding: 5px;
+	height: 20px;
+	width: 160px;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	z-index: 999;
+	background: #DDEAF7;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	cursor: pointer;
+	/*[disabled]border-top:2px solid #FF0000;*/
+	/*[disabled]border-left:2px solid #FF0000;*/
+	/*[disabled]border-right:2px solid #FF0000;*/
+}
+.open
+{
+	margin: 0px;
+	background: transparent url(../images/fugue/icons/plus-circle.png) no-repeat 2px 0px;
+	height: 20px;
+}
+.close
+{
+	margin: 0px;
+	background: transparent url(../images/fugue/icons/minus-circle.png) no-repeat 2px 0px;
+	height: 20px;
+}
+.open p
+{
+	margin: 2px 0px 0px 20px;
+	padding: 0px;
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+.close p
+{
+	margin: 2px 0px 0px 20px;
+	padding: 0px;
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+.promotie
+{
+	margin: 5px;
+	padding: 5px;
+	width: 140px;
+	float: left;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #DA8080;
+}
+.footer_data
+{
+	margin: 8px auto 0px;
+	padding: 0px;
+	position: relative;
+	height: 100%;
+}
+.lokatie_data
+{
+	margin: -90px 0px 0px 360px;
+	padding: 0px;
+	position: relative;
+	width: 330px;
+	height: 100px;
+	text-align: left;
+}
+#resto_map
+{
+	margin: 0px;
+	padding: 0px;
+	height: 75px;
+	width: 120px;
+	background: #FF0000;
+}
+div#footer p
+{
+	font-size: 1.5em;
+	color: #808080;
+	margin: 0px 0px 5px;
+	padding: 0px;
+}
+.footer_data span
+{
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+}

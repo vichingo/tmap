@@ -1,0 +1,151 @@
+/*[fmt]AA90-1A0A-3*/
+/*structuur is ondergebracht in 960.css*/
+body, html
+{
+	background: #E3F2D8;
+	color: #8B0000;
+	font: 10px/1.5em Verdana;
+}
+.clear
+{
+	clear: both;
+}
+.hidden
+{
+	display: none;
+}
+/*design
+header*/
+div#header
+{
+	background: #8B0000;
+	height: 100px;
+	color: #E3F2D8;
+}
+/*navbar*/
+div#navbar
+{
+	background: transparent url(../images/design/pizzaweb_navbar_bg.png) repeat-x;
+	height: 40px;
+}
+div#navbar ul
+{
+	list-style: none;
+	display: block;
+	margin: 0px;
+}
+div#navbar ul li
+{
+	float: left;
+	margin: 10px 5px;
+	font-size: 2em;
+}
+div#navbar ul li a
+{
+	text-decoration: none;
+	color: #8B0000;
+}
+div#navbar ul li a:hover
+{
+	text-decoration: none;
+	color: #D13C3C;
+}
+/*alien form*/
+div#alien_form
+{
+	background-color: #90EE90;
+	color: #000000;
+}
+div form>div>.box
+{
+	height: 250px;
+}
+div#name_forms
+{
+	background-color: #FFFACD;
+}
+div#location_forms
+{
+	background-color: #FFFACD;
+	height: auto;
+}
+div#phone_forms
+{
+	background-color: #FFFACD;
+}
+div#submit_forms
+{
+	background-color: #FFFACD;
+}
+/*content*/
+div#content
+{
+	background: transparent;
+}
+.menukaart .menusoort
+{
+	background: #FFFACD;
+	padding: 5px;
+}
+.menukaart .menusoort .gerecht
+{
+	background: #BDE0A3;
+	padding: 0px;
+	margin: 5px;
+}
+.gerecht .gerecht_image
+{
+	float: left;
+}
+.gerecht .gerecht_image img
+{
+	width: 100px;
+}
+div#details
+{
+	background: #BDE0A3;
+	margin: 0px;
+	padding: 5px;
+}
+div#bestelling
+{
+	background: #008000;
+	color: #90EE90;
+	position: relative;
+	padding: 5px;
+}
+div.bestel_lijn
+{
+	font-size: 1.1em;
+	position: relative;
+	left: 10px;
+	float: left;
+	margin: 0px;
+}
+.bestel_lijn .aantal, .bestel_lijn .gerecht_naam, .bestel_lijn .totaal_prijs, .bestel_lijn .lijn_verwijderen
+{
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	float: left;
+}
+.bestel_lijn .totaal_prijs
+{
+	font-weight: bold;
+}
+/*footer*/
+div#footer
+{
+	background: #FF7F50;
+}
+div#footer_left
+{
+	background: #228B22;
+}
+div#footer_middle
+{
+	background: #8B0000;
+}
+div#footer_right
+{
+	background: #FF8C00;
+}

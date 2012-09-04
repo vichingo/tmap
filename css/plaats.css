@@ -1,0 +1,22 @@
+.combo-result-item {
+	padding: 2px;
+	border: 1px solid #FFFFFF;
+}
+
+.combo-postcode {
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #FFFF99;
+	color: black;
+}
+
+.combo-stad{
+	font-size: 11px;
+	color: #666666;
+}
+
+.combo-provincie{
+	font-weight: bold;
+	font-size: 11px;
+	color: #666666;
+}

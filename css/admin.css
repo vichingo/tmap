@@ -1,0 +1,291 @@
+/*[fmt]AA90-1A0A-332*/
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+	font: normal normal normal 10px/1.2em "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+}
+.cel
+{
+	margin: 0px;
+	padding: 0px;
+}
+.groen
+{
+	background: #8FEA8F;
+}
+.rood
+{
+	background: #EBACAC;
+}
+.blauw
+{
+	background: #DFDFF6;
+}
+.hidden
+{
+	display: none;
+}
+table
+{
+	margin: 0px 5px 5px;
+	padding: 0px;
+	border: 1px solid #C9ADAD;
+/*width: 381px;*/
+	text-align: left;
+	position: relative;
+	top: 5px;
+}
+tr
+{
+	text-align: left;
+}
+td
+{
+	margin: 0px;
+	padding: 2px;
+	border: 1px solid #BFCEBF;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	vertical-align: top;
+}
+td.choice
+{
+	text-align: center;
+}
+#showDelete
+{
+	margin: 0px;
+	padding: 0px;
+	height: 16px;
+	width: 16px;
+/*
+background: transparent url(../images/fugue/icons/ui-check-boxes-series.png) no-repeat 0px 0px;
+*/
+}
+.rijSelect
+{
+	width: 16px;
+}
+.rijHoofd
+{
+	margin: 0px;
+	padding: 2px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.tabel
+{
+	margin: 5px;
+	padding: 0px;
+	border: 1px solid #C9ADAD;
+}
+.titel p
+{
+	margin: 0px;
+	padding: 2px 2px 2px 5px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#sorteer_lijst
+{
+	margin: 0px;
+	padding: 2px;
+}
+.item
+{
+	margin: 2px 2px 4px;
+	padding: 3px 0px;
+}
+.item div
+{
+	margin: 5px 5px 5px 20px;
+	padding: 4px;
+	border: 1px solid #FFA500;
+	font-size: 1.2em;
+}
+.item div.kop
+{
+	margin: 5px;
+	padding: 4px;
+	border: 1px solid #23A7DC;
+	background: #87CEEB;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.knoppen
+{
+	margin: 5px;
+	padding: 0px;
+}
+.voetnoot p
+{
+	margin: 0px;
+	padding: 4px 4px 4px 5px;
+	font-size: 1.2em;
+}
+.voetnoot p span
+{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+select
+{
+	height: 22px;
+}
+/*specs*/
+.specs td
+{
+	margin: 0px;
+	padding: 5px;
+	font-weight: normal;
+	border: 0px solid #BFCEBF;
+}
+td.emptycell
+{
+	background: transparent;
+	border: 0px solid #BFCEBF;
+	margin: 0px;
+	padding: 0px;
+}
+td.specificatie
+{
+	font-weight: bold;
+	background: #00A6FF;
+}
+td.specificatie_lijst
+{
+	font-weight: bold;
+	background: #046091;
+	color: #FFFFFF;
+}
+input.keuze
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*ui*/
+.ui-button
+{
+	display: inline;
+	font-size: 1em;
+	text-decoration: none;
+	cursor: hand;
+	height: 2em;
+	padding: 3px 10px;
+}
+.ui-button span
+{
+	float: left;
+}
+.image_thmb
+{
+	width: 100px;
+}
+.ui-state-highlight
+{
+	height: 5em;
+	line-height: 4em;
+	margin: 5px;
+	padding: 0px;
+}
+/*maps*/
+#map
+{
+	margin: 0px auto;
+	padding: 0px;
+}
+/*sorteer velden*/
+#beheer_velden
+{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	height: 40px;
+	width: 100%;
+	z-index: 3;
+	background: #414141;
+}
+.sorteer_velden
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 0px;
+	float: left;
+}
+.sorteer_velden #toppers
+{
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	position: relative;
+	left: 5px;
+	top: 0px;
+	float: left;
+}
+#beheer_velden label
+{
+	margin: 0px;
+	padding: 2px;
+	font-size: 1.2em;
+	color: #FFFFFF;
+}
+.sorteer_velden .sorteer_veld_knop
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+	float: left;
+}
+#beheer_velden button
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 15px;
+	bottom: 0px;
+	left: 5px;
+	float: left;
+}
+.zoek_velden
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: right;
+	right: 0px;
+}
+.zoek_velden #zoek_op_velden
+{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	float: left;
+}
+.zoek_velden #zoek_veld
+{
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+	float: left;
+}
+.zoek_velden .zoek_veld_knop
+{
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	position: relative;
+	left: 0px;
+	float: left;
+}
+#bestellingen
+{
+	margin: 50px 0px 0px;
+	padding: 0px;
+	float: left;
+}

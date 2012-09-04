@@ -1,0 +1,14 @@
+BODY, HTML
+{
+	background: transparent;
+	color: #000000;
+	font: 10px/1.3em Georgia !important;
+	height: 100%;
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+}
+#deadCenterBox
+{
+	width: 300px;
+}
